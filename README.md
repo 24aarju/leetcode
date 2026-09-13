@@ -50,11 +50,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/24aarju/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/24aarju/leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/24aarju/leetcode/tree/master/0283-move-zeroes) |
+| [0844-backspace-string-compare](https://github.com/24aarju/leetcode/tree/master/0844-backspace-string-compare) |
 | [0977-squares-of-a-sorted-array](https://github.com/24aarju/leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/24aarju/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Simulation
 |  |
 | ------- |
+| [0844-backspace-string-compare](https://github.com/24aarju/leetcode/tree/master/0844-backspace-string-compare) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/24aarju/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Hash Table
 |  |
@@ -94,4 +96,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/24aarju/leetcode/tree/master/0713-subarray-product-less-than-k) |
+## String
+|  |
+| ------- |
+| [0844-backspace-string-compare](https://github.com/24aarju/leetcode/tree/master/0844-backspace-string-compare) |
+## Stack
+|  |
+| ------- |
+| [0844-backspace-string-compare](https://github.com/24aarju/leetcode/tree/master/0844-backspace-string-compare) |
 <!---LeetCode Topics End-->
