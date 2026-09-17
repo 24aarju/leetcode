@@ -1,36 +1,21 @@
 class Solution {
     public int totalFruit(int[] fruits) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+
         int left = 0;
         int max = 0;
 
-        int fruit1 = -1, fruit2 = -1;
-        int count1 = 0, count2 = 0;
-
         for (int right = 0; right < fruits.length; right++) {
+            map.put(fruits[right], map.getOrDefault(fruits[right], 0) + 1);
 
-            if (fruits[right] == fruit1) {
-                count1++;
-            } 
-            else if (fruits[right] == fruit2) {
-                count2++;
-            } 
-            else {
-                while (count1 > 0 && count2 > 0) {
-                    if (fruits[left] == fruit1) {
-                        count1--;
-                    } else {
-                        count2--;
-                    }
-                    left++;
+            while (map.size() > 2) {
+                map.put(fruits[left], map.get(fruits[left]) - 1);
+
+                if (map.get(fruits[left]) == 0) {
+                    map.remove(fruits[left]);
                 }
 
-                if (count1 == 0) {
-                    fruit1 = fruits[right];
-                    count1 = 1;
-                } else {
-                    fruit2 = fruits[right];
-                    count2 = 1;
-                }
+                left++;
             }
 
             max = Math.max(max, right - left + 1);
